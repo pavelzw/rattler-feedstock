@@ -1,5 +1,5 @@
 context:
-  version: "0.2.9"
+  version: "0.2.10"
 
 package:
   name: rattler
@@ -7,7 +7,7 @@ package:
 
 source:
   - url: https://github.com/conda/rattler/archive/rattler-bin-v${{ version }}.tar.gz
-    sha256: e16ec440f59663d374a2a91a46d3f41c2fb77c836651c30756eb1b962f44f1bb
+    sha256: e30936aef54b64ccf1c78ee7a6139479c7b408fdd52f708ad6be06194cc2bfff
   - url: https://github.com/baszalmstra/libsolv/archive/068739980a909f39b647b9a96146e58e80741d1e.tar.gz
     target_directory: crates/rattler_libsolv_c/libsolv
     sha256: 4cf3e8a09e6710b5452be43c103aef9d33a08f31db1f5f870492045697d53161
